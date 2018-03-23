@@ -8,7 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import org.fmod.FMOD;
-
+import android.*;
 public class MainActivity extends AppCompatActivity {
 
     @Override
