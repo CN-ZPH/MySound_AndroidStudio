@@ -1,6 +1,9 @@
+Fork修改版  新增v7平台下可用性 升级gradle配置 5.6.4
+
+
 > 版权声明：转载必须注明本文转自张鹏辉的博客: http://blog.csdn.net/qingtiangg
-<br>
-  >大家好，距离上一篇博客半年过去了，关于上一篇博客很多人加我QQ留言问了几个问题，最近不忙决定解决一下，并写几个文档总结下这半年的经验，这篇文档主要是记录下移植的过程。
+> <br>
+> 大家好，距离上一篇博客半年过去了，关于上一篇博客很多人加我QQ留言问了几个问题，最近不忙决定解决一下，并写几个文档总结下这半年的经验，这篇文档主要是记录下移植的过程。
 
 
 # 统计
@@ -28,7 +31,7 @@ Android Studio NDK目前有两种玩法:
 
 ##1.创建新项目（Create New Project）
   勾选上 <font color=gray size=2>Include C++ Support</font>
-  
+
 ![这里写图片描述](http://img.blog.csdn.net/20170803150811282?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUWluZ1RpYW5HRw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 接下来和普通创建一样一路 ---->Next到下图这个页面
@@ -133,7 +136,7 @@ target_link_libraries( sound fmod fmodL
 >中文翻译的简易的 CMake手册
 
 >https://www.zybuluo.com/khan-lau/note/254724
- 
+
 
 最后一步配置build.gradle直接上图了：
 
